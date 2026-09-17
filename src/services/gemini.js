@@ -9,7 +9,7 @@ export async function analyzeIdea(idea) {
     model: "gemini-3.5-flash",
   });
 
-  const result = await model.generateContent(`
+ const result = await model.generateContent(`
 You are a professional startup consultant.
 
 Analyze this startup idea:
@@ -28,8 +28,9 @@ Provide:
 # Tech Stack
 # SWOT Analysis
 # Growth Strategy
+# Investor Pitch
 # Startup Score (/100)
 
-Make response professional and investor-ready.
+Make the response concise and investor-ready.
 `);
-  }
+ }

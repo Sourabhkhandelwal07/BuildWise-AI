@@ -40,7 +40,8 @@ function App() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#0f172a",
+        background:
+"linear-gradient(135deg, #0f172a, #1e293b)",
         color: "white",
         display: "flex",
         flexDirection: "column",
@@ -117,7 +118,7 @@ function App() {
         >
           <div
             style={{
-              background: "#1e293b",
+              background: "#334155",
               padding: "20px",
               borderRadius: "15px",
               whiteSpace: "pre-wrap",
